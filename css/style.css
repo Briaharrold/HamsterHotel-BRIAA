@@ -1,0 +1,165 @@
+.nav-link{
+   font-family:Dosis;
+   font-size: 20px;
+  color: white !important;
+}
+.heroimage-1{
+   background-image: url(../images/header.jpg);
+   height: 500px;
+   background-position: center; 
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   
+}
+.hero-content{
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); 
+}
+h1{
+   font-family: Dosis ;
+   color: #E5FEFF;
+   font-size: 45px;
+   
+}
+h4{
+   font-family: Source Sans Pro ;
+   color: #E5FEFF;
+   font-size: 16px;
+}
+h2{
+   font-family: Dosis;
+   color: #1A1B26;
+   font-size: 35px;
+   text-align: center;
+}
+.p{
+   font-family: Source Sans Pro;
+   color: #1A1B26;
+   font-size: 16px;
+}
+.herorec{
+    padding: 0px !important; 
+   background-color:#000324;
+   opacity: 80%;
+   width: 945px;
+   height: 232px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); 
+}
+.logo{
+  padding-right:2% ;
+  padding-left:2% ;
+  /* padding-bottom: 1%; */
+
+}
+.hero-2{
+background-image: url(../images/hamsterhomejpg.jpg);
+margin-top: 50px;
+margin-left: 70px;
+margin-bottom: 70px;
+left: 800px;
+width: 369px;
+height: 416px;
+}
+.padding{
+   padding: 7px;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+ 
+  color: white;
+}
+.bg2{
+   background-image: url(../images/bg2.jpg);
+   height: 583px;
+
+}
+.font4cards{
+   font-family: Source Sans Pro;
+   color: #1A1B26;
+   font-size: 16px;
+}
+.white{
+   color:white;
+}
+.blue{
+   color:#1A1B26;
+}
+.package{
+padding-left: 7%;
+padding-right: 7%;
+padding-top: 0%;
+padding-bottom: 7%;
+}
+.packageprice{
+   color: #1F51A8;
+   font-family: Source Sans Pro;
+}
+.blue2{
+  color: #1A1B26;
+  font-family: Dosis;
+  font-size: 25px;
+}
+.cardbold{
+   font-family: Source Sans Pro Bold 700;
+   font-size: 16px;
+}
+.cardtitles{
+   font-family: Dosis;
+   color: #1A1B26;
+   font-size: 25px;
+}
+.cardtitles{
+   color:#1A1B26;
+   font-family: Dosis;
+   font-size: 25px;
+}
+.textAlignLeft{
+   text-align: left;
+}
+.bg{
+background-image: url(../images/bg.jpg);
+height:548px;
+}
+.white2{
+   color: white;
+   font-family:Source Sans Pro;
+   text-align: center;
+}
+.par{
+   color:#E5FEFF;
+   font-size:16px;
+   font-family:Source Sans Pro;
+}
+.amenitiesbold{
+   font-family: Source Sans Pro Bold 700;
+   font-size: 20px;
+   color:#FFFFFF
+}
+.bluebgbox{
+  background-color: #000324;
+  height: 207px;
+}
+.buttonfont{
+font-size: 20px;
+font-family: Source Sans Pro Bold 700;
+color:#FFFFFF;
+}
+.bg4{
+   background-image: url(../images/hamsterreserve.jpg);
+   height: 414px;
+   width: 2000px;
+   background-repeat: no-repeat;
+}
+.bluebgbox2{
+   background-color: #000324;
+   height: 300px;
+   
+}
