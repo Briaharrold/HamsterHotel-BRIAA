@@ -2,6 +2,10 @@
    font-family:Dosis;
    font-size: 20px;
   color: white !important;
+  overflow: hidden;
+}
+a:hover{
+   border: 2px solid rgb(255, 255, 255);
 }
 .heroimage-1{
    background-image: url(../images/header.jpg);
@@ -9,8 +13,8 @@
    background-position: center; 
    background-repeat: no-repeat;
    background-size: cover;
-   position: relative;
-   
+   position: relative;  
+   overflow: hidden;
 }
 .hero-content{
    text-align: center;
@@ -19,9 +23,12 @@
    left: 50%;
    transform: translate(-50%, -50%); 
 }
+footer{
+   overflow: hidden;
+}
 h1{
    font-family: Dosis ;
-   color: #E5FEFF;
+   color: #FFFEFF;
    font-size: 45px;
    
 }
@@ -36,13 +43,14 @@ h2{
    font-size: 35px;
    text-align: center;
 }
-.p{
+
+.pW{
    font-family: Source Sans Pro;
    color: #1A1B26;
    font-size: 16px;
 }
-.herorec{
-    padding: 0px !important; 
+.hero6{
+    padding: 0px; 
    background-color:#000324;
    opacity: 80%;
    width: 945px;
@@ -54,37 +62,62 @@ h2{
 }
 .logo{
   padding-right:2% ;
-  padding-left:2% ;
+  padding-left: 2% ;
+  padding-top: .5%;
   /* padding-bottom: 1%; */
 
 }
+.paddingT{
+   padding-top: 5%;
+}
+.imghome{
+   width: 100%;
+   height: 25rem;
+   object-fit: cover;
+   object-position: 0 60%;
+   
+}
+.Award{
+   height: 10rem;
+   width: 12rem;
+   
+}
 .hero-2{
 background-image: url(../images/hamsterhomejpg.jpg);
-margin-top: 50px;
+/* margin-top: 50px;
 margin-left: 70px;
 margin-bottom: 70px;
 left: 800px;
 width: 369px;
+height: 416px; */
+width: 369px;
 height: 416px;
+background-repeat: no-repeat;
 }
 .padding{
    padding: 7px;
 }
 
-/* Place text in the middle of the image */
+
 .hero-text {
  
   color: white;
 }
 .bg2{
    background-image: url(../images/bg2.jpg);
-   height: 583px;
+   height: 100%;
+   padding-bottom: 5% ;
 
 }
 .font4cards{
    font-family: Source Sans Pro;
    color: #1A1B26;
-   font-size: 16px;
+   font-size: 15px;
+}
+
+.card{
+   border-radius: 0%;
+   
 }
 .white{
    color:white;
@@ -93,10 +126,11 @@ height: 416px;
    color:#1A1B26;
 }
 .package{
-padding-left: 7%;
-padding-right: 7%;
+  
+padding-left: 10%;
+padding-right: 10%;
 padding-top: 0%;
-padding-bottom: 7%;
+padding-bottom: 10%;
 }
 .packageprice{
    color: #1F51A8;
@@ -126,12 +160,23 @@ padding-bottom: 7%;
 }
 .bg{
 background-image: url(../images/bg.jpg);
-height:548px;
+height:100%;
 }
+
 .white2{
    color: white;
    font-family:Source Sans Pro;
    text-align: center;
+}
+
+.padB2{
+   padding-bottom: 4rem;
+
+}
+.centerI{
+ color: white;
+ text-align: center center;
+ letter-spacing: 0px;
 }
 .par{
    color:#E5FEFF;
@@ -143,9 +188,33 @@ height:548px;
    font-size: 20px;
    color:#FFFFFF
 }
+.ham1Pad{
+   padding-bottom: 5%;
+}
+.imgheight{
+   width: 100%;
+   height: 20rem;
+
+}
+.let{
+   letter-spacing: 0px;
+}
 .bluebgbox{
   background-color: #000324;
-  height: 207px;
+  height:207px;
+ margin-top: 50px;
+ width: 65%;
+  
+}
+@media (min-width:375px) and (max-width:600px) {
+   .marginCard{
+      margin-left: 20px;
+
+      }
+}
+
+h6{
+   color: #E5FEFF;
 }
 .buttonfont{
 font-size: 20px;
@@ -155,7 +224,6 @@ color:#FFFFFF;
 .bg4{
    background-image: url(../images/hamsterreserve.jpg);
    height: 414px;
-   width: 2000px;
    background-repeat: no-repeat;
 }
 .bluebgbox2{
