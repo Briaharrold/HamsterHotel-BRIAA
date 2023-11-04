@@ -1,5 +1,5 @@
 # HamsterHotel-BRIAA#
-# Bria
+# Bria Harrold
 # 11/3/23
 # replicate the prototype of Hamster Hotel and make it responsive
 # peer review: Jeriah Marson 3:24
